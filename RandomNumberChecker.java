@@ -5,7 +5,7 @@ public class RandomNumberChecker
 	static final int NUMBER_OF_VALUES = (MAX_VALUE - MIN_VALUE + 1);
 	static final int NUMBER_OF_TRIALS = 1000;
 	
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		int[] count;
 		count = new int[NUMBER_OF_VALUES];
