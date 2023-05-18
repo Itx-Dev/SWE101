@@ -1,5 +1,6 @@
 
-public class GraphPrinter {
+public class GraphPrinter 
+{
 	private static final int MAX_SCALE = 65;
 	private static final double MIN_POINT = -1.0;
 	private static final double MAX_POINT = 1.0;
@@ -20,12 +21,12 @@ public class GraphPrinter {
 	public static void printHeading() 
 	{
 		System.out.println(" Simple Bar Graph Without Graphics");
-		System.out.print("-1");
+		System.out.print( "-1" );
 		for (int i = 0; i < MAX_SCALE/2; i++)
 		{
 			System.out.print(" ");
 		}
-		System.out.print("0");
+		System.out.print( "0" );
 		for (int i = 0; i < MAX_SCALE/2; i++) 
 		{
 			System.out.print(" ");
