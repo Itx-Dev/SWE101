@@ -1,4 +1,3 @@
-
 public class GraphPrinter 
 {
 	private static final int MAX_SCALE = 65;
@@ -21,12 +20,12 @@ public class GraphPrinter
 	public static void printHeading() 
 	{
 		System.out.println(" Simple Bar Graph Without Graphics");
-		System.out.print( "-1" );
+		System.out.print("-1");
 		for (int i = 0; i < MAX_SCALE/2; i++)
 		{
 			System.out.print(" ");
 		}
-		System.out.print( "0" );
+		System.out.print("0");
 		for (int i = 0; i < MAX_SCALE/2; i++) 
 		{
 			System.out.print(" ");
@@ -38,6 +37,16 @@ public class GraphPrinter
 			System.out.print("-");
 		}
 		System.out.println();
+	}
+	
+	public static void printBar(int height)
+	{
+		System.out.print(" ");
+		for (int i = 0; i < height; i++)
+		{
+			System.out.print(" ");
+		}
+		System.out.println("*");
 	}
 	
 	static void printBetween2Bar(int h1, int h2)
@@ -72,7 +81,7 @@ public class GraphPrinter
 			sin = Math.sin(h);
 			double cos;
 			cos = Math.cos(h);
-			printBetween2Bar(calculateHeight(sin), calculateHeight(cos));
+			printBetween2Bar(calculateHeight(sin),calculateHeight(cos));
 		}
 	}
 }
