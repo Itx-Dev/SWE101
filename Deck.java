@@ -1,4 +1,5 @@
-public class Deck {
+public class Deck 
+{
 	private static final int NUMBER_OF_SUITS = 4;
 	private static final int NUMBER_OF_CARDS = 52;
 	Card[] cards;
@@ -16,7 +17,6 @@ public class Deck {
 			}
 		}
 	}
-	
 	public String toString()
 	{
 		String s = new String();
@@ -26,7 +26,6 @@ public class Deck {
 		}
 		return s;
 	}
-	
 	public void shuffle()
 	{
 		for (int i = 0; i< NUMBER_OF_CARDS; i++)
