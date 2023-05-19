@@ -13,16 +13,19 @@ public class Card
 		faceValue = v;
 		suit = s;
 	}
+	
 	public int getSuit()
 	{
 		return suit;
 	}
+	
 	public int getValue()
 	{
 		return faceValue;
 	}
+	
 	public String toString()
 	{
-		return "faceValue = " + FACE_VALUE_DESCRIPTION[faceValue] + " and suit = " + SUIT_DESCRIPTION[suit];
+		return FACE_VALUE_DESCRIPTION[faceValue] + " of " + SUIT_DESCRIPTION[suit];
 	}
 }
