@@ -1,4 +1,5 @@
-public class Card {
+public class Card 
+{
 	private static final String[] SUIT_DESCRIPTION = 
 		{"Spades", "Hearts", "Diamonds", "Clubs"};
 	private static final String[] FACE_VALUE_DESCRIPTION = 
@@ -12,17 +13,14 @@ public class Card {
 		faceValue = v;
 		suit = s;
 	}
-	
 	public int getSuit()
 	{
 		return suit;
 	}
-	
 	public int getValue()
 	{
 		return faceValue;
 	}
-	
 	public String toString()
 	{
 		return "faceValue = " + FACE_VALUE_DESCRIPTION[faceValue] + " and suit = " + SUIT_DESCRIPTION[suit];
