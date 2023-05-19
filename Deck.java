@@ -1,4 +1,5 @@
-public class Deck {
+public class Deck 
+{
 	private static final int NUMBER_OF_SUITS = 4;
 	private static final int NUMBER_OF_CARDS = 52;
 	Card[] cards;
