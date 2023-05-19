@@ -28,14 +28,16 @@ public class Fibonacci
 	/**
 	 * @return oneBack value
 	 */
-	public long getOneBack() {
+	public long getOneBack()
+	{
 		return oneBack;
 	}
 
 	/**
 	 * @return twoBack value
 	 */
-	public long getTwoBack() {
+	public long getTwoBack() 
+	{
 		return twoBack;
 	}
 }
