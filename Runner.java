@@ -4,7 +4,8 @@ import java.math.BigInteger;
  * @author Merlin
  *
  */
-public class Runner {
+public class Runner 
+{
 	/**
 	 * @param args
 	 */
@@ -16,14 +17,16 @@ public class Runner {
 		{
 			System.out.println(next);
 			next = f.findNext();
-			System.out.println("next = " + next + ", oneBack " + f.getOneBack() + ", and twoBack = " + f.getTwoBack());
+			System.out.println("next = " + next + ", oneBack " + f.getOneBack() + 
+					   ", and twoBack = " + f.getTwoBack());
 		}
 		
 		int j;
 		for (j = 0; j < 5; j++)
 		{
 			next = f.findNext();
-			System.out.println("next = " + next + ", oneBack " + f.getOneBack() + ", and twoBack = " + f.getTwoBack());
+			System.out.println("next = " + next + ", oneBack " + f.getOneBack() + 
+					   ", and twoBack = " + f.getTwoBack());
 		}
 		
 		System.out.println("");
