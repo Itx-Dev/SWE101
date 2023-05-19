@@ -81,7 +81,7 @@ public class GraphPrinter
 			sin = Math.sin(h);
 			double cos;
 			cos = Math.cos(h);
-			printBetween2Bar(calculateHeight(sin),calculateHeight(cos));
+			printBetween2Bar(calculateHeight(sin), calculateHeight(cos));
 		}
 	}
 }
