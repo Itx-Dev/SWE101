@@ -4,7 +4,8 @@ import java.math.BigInteger;
  * @author Merlin
  *
  */
-public class BigFibonacci {
+public class BigFibonacci 
+{
 	private BigInteger oneBack = new BigInteger("1");
 	private BigInteger twoBack = new BigInteger("0");
 	
