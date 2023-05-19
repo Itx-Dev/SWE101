@@ -21,12 +21,12 @@ public class GraphPrinter
 	{
 		System.out.println(" Simple Bar Graph Without Graphics");
 		System.out.print("-1");
-		for (int i = 0; i < MAX_SCALE/2; i++)
+		for (int i = 0; i < MAX_SCALE / 2; i++)
 		{
 			System.out.print(" ");
 		}
 		System.out.print("0");
-		for (int i = 0; i < MAX_SCALE/2; i++) 
+		for (int i = 0; i < MAX_SCALE / 2; i++) 
 		{
 			System.out.print(" ");
 		}
