@@ -14,18 +14,15 @@ public class Card
 		suit = s;
 	}
 	
-	public int getSuit()
-	{
+	public int getSuit() {
 		return suit;
 	}
 	
-	public int getValue()
-	{
+	public int getValue() {
 		return faceValue;
 	}
 	
-	public String toString()
-	{
+	public String toString() {
 		return FACE_VALUE_DESCRIPTION[faceValue] + " of " + SUIT_DESCRIPTION[suit];
 	}
 }
