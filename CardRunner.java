@@ -1,4 +1,5 @@
-public class CardRunner {
+public class CardRunner 
+{
 	public static void main(String[] args)
 	{
 		Card c1 = new Card(0,0);
