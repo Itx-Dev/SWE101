@@ -2,8 +2,8 @@
  * @author Devin
  *
  */
-public class TaxCalculator {
-	
+public class TaxCalculator 
+{
 	/**
 	 * @param income
 	 * @return return income at tax rate of 5%
@@ -23,7 +23,9 @@ public class TaxCalculator {
 		if (income >= 30000)
 		{
 			return (income * 0.05);
-		} else {
+		} 
+		else 
+		{
 			return 0;
 		}
 	}
@@ -39,10 +41,12 @@ public class TaxCalculator {
 		if (income >= 50000) 
 		{
 			return (income * 0.07);
-		} else if (income >= 30000) 
+		} 
+		else if (income >= 30000) 
 		{
 			return (income * 0.05);			
-		} else 
+		} 
+		else 
 		{
 			return 0;
 		}
@@ -75,7 +79,8 @@ public class TaxCalculator {
 		{
 			// If 4 or more dependents
 			adjustedIncome = (income - (dependent * 1100));
-		} else 
+		} 
+		else 
 		{
 			// If less than 4 dependents
 			adjustedIncome = (income - (dependent * 1000));
@@ -85,12 +90,12 @@ public class TaxCalculator {
 		{
 			// If adjusted income is above $20,000
 			taxRate = 0.15;
-		} else 
+		} 
+		else 
 		{
 			// If adjusted income is below $20,000
 			taxRate = 0.05;
 		}
-		
 		return (adjustedIncome * taxRate);	
 	}
 	
@@ -120,12 +125,14 @@ public class TaxCalculator {
 		if (incomeDifference <= 10000)
 		{
 			return ((firstIncome + secondIncome) * 0.05);
-		} else 
+		} 
+		else 
 		{
 			if (firstIncome > secondIncome)
 			{
 				return ((firstIncome * 0.05) + (secondIncome * 0.03));
-			} else 
+			} 
+			else 
 			{
 				return ((firstIncome * 0.03) + (secondIncome * 0.05));
 			}
@@ -148,19 +155,21 @@ public class TaxCalculator {
 			if ((income * 0.10) < (dependents * 1000)) 
 			{
 				return (income * 0.10);
-			} else 
+			} 
+			else 
 			{
 			return (adjustedIncome * 0.10);
 			}
-		} else if (adjustedIncome >= 30000) 
+		} 
+		else if (adjustedIncome >= 30000) 
 		{
 			return (adjustedIncome * 0.05);
-		} else 
+		} 
+		else 
 		{
 			return 0;
 		}
 	}
-	
 	
 	/**
 	 * @param income
@@ -187,7 +196,8 @@ public class TaxCalculator {
 			if ((income * incomeTax) < (dependents * 1000))
 			{
 				return (income * incomeTax);
-			} else 
+			} 
+			else 
 			{
 				// Tax adjusted income if deductions are 
 				// less than 10% of income.
@@ -203,7 +213,8 @@ public class TaxCalculator {
 			if (mortgageInterestPaid > (adjustedIncome * 0.02))
 			{
 				return ((adjustedIncome - mortgageInterestPaid) * incomeTax);
-			} else 
+			} 
+			else 
 			{
 				// If mortgage interest paid is less than 2% tax
 				// adjusted income by 5%
