@@ -51,15 +51,15 @@ public class MySorter
 	/**
 	 * @param array
 	 */
-	public void selectionSort(int[] array)
+	public void selectionSort(int[] array) 
 	{
 		int lastPosition = array.length - 1;
 		for (int i = 0; i < lastPosition; i++)
 		{
-			if (array[i] > array[lastPosition])
+			if (array[maxPosition(array, i)] > array[lastPosition])
 			{
-				swap(array, lastPosition, i);
-			}			
+				swap(array, lastPosition, maxPosition(array, i));
+			}
 		}
 	}
 	
