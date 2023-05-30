@@ -36,7 +36,8 @@ public class SentenceCounter
 		int blankCount = 0;
 		// If character is equal to char ' '
 		// increment blank count
-		for (int i = 0; i <= sentence.length() - 1; i++) {
+		for (int i = 0; i <= sentence.length() - 1; i++)
+		{
 			if (sentence.charAt(i) == ' ') {
 				++blankCount;
 			}
@@ -51,7 +52,8 @@ public class SentenceCounter
 	{
 		int lowerCaseCount = 0;
 		
-		for (int i = 0; i <= sentence.length() - 1; i++) {
+		for (int i = 0; i <= sentence.length() - 1; i++)
+		{
 			char ch = sentence.charAt(i);
 			// if character is between lower case characters a-z 
 			// increment lower case count
@@ -69,7 +71,8 @@ public class SentenceCounter
 	 */
 	public int firstBlankPosition()
 	{
-		for (int i = 0; i <= sentence.length() - 1; i++) {
+		for (int i = 0; i <= sentence.length() - 1; i++)
+		{
 			if (sentence.charAt(i) == ' ')
 			{
 				// return index of first blank
@@ -88,7 +91,8 @@ public class SentenceCounter
 	public int blankPosition(int finalBlank)
 	{
 		int blankCount = 0;
-		for (int i = 0; i <= sentence.length() - 1; i++) {
+		for (int i = 0; i <= sentence.length() - 1; i++) 
+		{
 			if (sentence.charAt(i) == ' ')
 			{
 				blankCount++;
