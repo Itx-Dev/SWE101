@@ -38,7 +38,8 @@ public class SentenceCounter
 		// increment blank count
 		for (int i = 0; i <= sentence.length() - 1; i++)
 		{
-			if (sentence.charAt(i) == ' ') {
+			if (sentence.charAt(i) == ' ') 
+			{
 				++blankCount;
 			}
 		}
