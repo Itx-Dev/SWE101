@@ -141,17 +141,17 @@ public class SentenceCounter
 	 */
 	public int countWildCardMatches(String s)
 	{
-		int occurances = 0;
+		int occurrences = 0;
 		
 		Pattern pattern = Pattern.compile(s);
 		Matcher matcher = pattern.matcher(sentence);
 		
 		while (matcher.find())
 		{
-			occurances++;
+			occurrences++;
 		}
 		
-		return occurances;
+		return occurrences;
 	}
 
 	
