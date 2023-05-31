@@ -123,10 +123,10 @@ public class TestSentenceCounter
 	@Test
 	public void testCountOccurances()
 	{
-		assertEquals(1,  sc1.countOccurances("ence"));
-		assertEquals(2,  sc1.countOccurances("en"));
-		assertEquals(1,  sc2.countOccurances("that"));
-		assertEquals(0,  sc2.countOccurances("This"));
+		assertEquals(1,  sc1.countOccurrences("ence"));
+		assertEquals(2,  sc1.countOccurrences("en"));
+		assertEquals(1,  sc2.countOccurrences("that"));
+		assertEquals(0,  sc2.countOccurrences("This"));
 	}
 	
 	/**

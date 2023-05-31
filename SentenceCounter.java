@@ -36,7 +36,7 @@ public class SentenceCounter
 		int blankCount = 0;
 		// If character is equal to char ' '
 		// increment blank count
-		for (int i = 0; i <= sentence.length() - 1; i++)
+		for (int i = 0; i <= sentence.length() - 1; i++) 
 		{
 			if (sentence.charAt(i) == ' ') 
 			{
@@ -53,7 +53,7 @@ public class SentenceCounter
 	{
 		int lowerCaseCount = 0;
 		
-		for (int i = 0; i <= sentence.length() - 1; i++)
+		for (int i = 0; i <= sentence.length() - 1; i++) 
 		{
 			char ch = sentence.charAt(i);
 			// if character is between lower case characters a-z 
@@ -128,7 +128,7 @@ public class SentenceCounter
 	 * @param s
 	 * @return length if substring array
 	 */
-	public int countOccurances(String s)
+	public int countOccurrences(String s)
 	{		
 		// .split() returns array of substrings matching s
 		// find length of array - 1 and return for occurrences 
