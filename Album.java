@@ -1,3 +1,5 @@
+import javax.print.attribute.standard.JobStateReasons;
+
 /**
  * @author Devin
  */
@@ -79,6 +81,11 @@ public class Album
 		
 		// Return array of objects
 		return songs;
+	}
+	
+	public Song getSong(int i)
+	{
+		return (songs[i]);
 	}
 	
 	/**

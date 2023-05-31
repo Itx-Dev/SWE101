@@ -44,9 +44,9 @@ class testAlbum {
 		a1.addSong(s2);
 		a1.addSong(s3);
 		
-		assertEquals(s1, a1.songs[0]);
-		assertEquals(s2, a1.songs[1]);
-		assertEquals(s3, a1.songs[2]);
+		assertEquals(s1, a1.getSong(0));
+		assertEquals(s2, a1.getSong(1));
+		assertEquals(s3, a1.getSong(2));
 
 	}
 	
@@ -90,7 +90,7 @@ class testAlbum {
 	}
 	
 	@Test
-	public void testToString()
+	public void testtoString()
 	{
 		String string1 = "Heavier Things:\n\tClarity: 4:32\n\tSomething's Missing: 5:05\n\tNew Deep: 4:09";
 		
