@@ -2,7 +2,8 @@
  * @author Devin
  */
 
-public class Album {
+public class Album 
+{
 	
 	Song[] songs;
 	
@@ -27,20 +28,23 @@ public class Album {
 	/**
 	 * @return album title
 	 */
-	public String getTitle() {
+	public String getTitle() 
+	{
 		return albumTitle;
 	}
 
 	/**
 	 * @return number of song album can hold
 	 */
-	public int getSize() {
+	public int getSize() 
+	{
 		return albumSize;
 	}
 	/**
 	 * @return number of songs on album
 	 */
-	public int getNumberOfSongs() {
+	public int getNumberOfSongs() 
+	{
 		int songCount = 0;
 		
 		for (int i = 0; i < songs.length; i++)
@@ -59,7 +63,8 @@ public class Album {
 	 * @param s 
 	 * @return songs, array of objects
 	 */
-	public Song[] addSong(Song s) {
+	public Song[] addSong(Song s) 
+	{
 		// Define beginning of array
 		int position = albumSize - songs.length;
 		
@@ -94,7 +99,7 @@ public class Album {
 		return durationSum;
 	}
 	
-	public String toString()
+	public final String toString()
 	{
 		String albumLine = albumTitle + ':';
 		String songLines = "";

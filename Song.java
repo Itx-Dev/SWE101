@@ -2,7 +2,8 @@
  * @author Devin
  *
  */
-public class Song {
+public class Song
+{
 	
 	String title;
 	int duration;
@@ -12,7 +13,8 @@ public class Song {
 	 * @param titleSetter
 	 * @param durationSetter
 	 */
-	public Song(String titleSetter, int durationSetter) {
+	public Song(String titleSetter, int durationSetter) 
+	{
 		title = titleSetter;
 		duration = durationSetter;
 	}
