@@ -1,5 +1,3 @@
-import javax.print.attribute.standard.JobStateReasons;
-
 /**
  * @author Devin
  */
@@ -83,7 +81,11 @@ public class Album
 		return songs;
 	}
 	
-	public Song getSong(int i)
+	/**
+	 * @param i
+	 * @return song at i^th position
+	 */
+	public final Song getSong(int i)
 	{
 		return (songs[i]);
 	}
