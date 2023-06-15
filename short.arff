@@ -1,0 +1,26 @@
+%Number of samples 4
+%Number of classes 8
+%Number of Ingredients 14
+@RELATION recipe
+
+@ATTRIBUTE lettuce NUMERIC
+@ATTRIBUTE olives NUMERIC
+@ATTRIBUTE grape_tomatoes NUMERIC
+@ATTRIBUTE garlic NUMERIC
+@ATTRIBUTE pepper NUMERIC
+@ATTRIBUTE onion NUMERIC
+@ATTRIBUTE seasoning NUMERIC
+@ATTRIBUTE beans NUMERIC
+@ATTRIBUTE cheese_crumbles NUMERIC
+@ATTRIBUTE flour NUMERIC
+@ATTRIBUTE salt NUMERIC
+@ATTRIBUTE tomatoes NUMERIC
+@ATTRIBUTE thyme NUMERIC
+@ATTRIBUTE eggs NUMERIC
+@ATTRIBUTE class {greek,southern_us,filipino,jamaican,french,japanese,irish,korean}
+
+@DATA
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,southern_us
+0,1,0,0,0,1,1,1,0,0,1,1,0,0,italian
+0,0,1,0,1,0,1,0,0,1,0,1,0,0,italian
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,korean
